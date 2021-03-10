@@ -165,5 +165,13 @@ footer .row {
 }
 /* End of Main Heading - experiences.html */
 
+/*Map Section – experiences.html*/
+div#map {
+    min-height: 360px;
+    min-width: 360px;
+    height: 600px;
+}
+/*End of Map Section – experiences.html*/
+
 
 
