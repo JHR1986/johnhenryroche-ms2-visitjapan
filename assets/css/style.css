@@ -110,4 +110,26 @@ background: rgba(0, 0, 0, 0.5);
 }
 /*End of Overview Text - index.html*/
 
+/*Activities Text - index.html*/
+.fonticon {
+    font-size: 50px;
+    color: pink;
+}
+
+.brochure {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+.textstyling {
+    background-color: rgba(108, 122, 137, 1);
+  color: white;
+  opacity: 0.9;
+  padding-bottom: 5px;
+}
+/*End of Activities - index.html*/
+
 
