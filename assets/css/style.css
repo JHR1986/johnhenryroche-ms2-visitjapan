@@ -44,3 +44,35 @@ body {
     background: rgb(53, 59, 65);
 }
 /*End of Navigation - all pages*/
+
+/*Hero Image & Heading Text - index.html*/
+.hero-image {
+  height: 650px;
+  background: url("../images/Optimized-kyoto.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.hero-text {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 32%;
+  z-index: 1;
+  color: rgb(255, 249, 249);
+}
+
+.hero-text h1 {
+  font-size: 45px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 0.8px black;
+  padding-bottom: 20px;
+}
+
+.hero-text span {
+background: rgba(0, 0, 0, 0.5);
+}
+/*End of Hero Image & Heading Text - index.html*/
