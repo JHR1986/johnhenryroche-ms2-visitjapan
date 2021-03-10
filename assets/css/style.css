@@ -190,6 +190,45 @@ div#map {
 }
 /* End of Activities - experiences.html */
 
+/*Enquiries Page Styling*/
+.enquiry-heroimage {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.enquiry-image {
+  padding-left: 10px;
+  margin-top: 5px;
+  height: 100px;
+}
+
+.enquiry-heading {
+  padding: 10px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.enquiry-form {
+  padding: 10px;
+  color: white;
+}
+
+.enquirybtn {
+  margin: auto;
+  text-align: center;
+  background-color: red;
+}
+
+.modal {
+   width: 300px;
+   height: 300px;
+   position: absolute;
+   left: 50%;
+   top: 60%; 
+   margin-left: -150px;
+   margin-top: -150px;
+}
+/*End of Enquiries Page Styling*/
+
 
 
 
