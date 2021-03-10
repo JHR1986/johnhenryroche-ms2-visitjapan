@@ -173,5 +173,23 @@ div#map {
 }
 /*End of Map Section – experiences.html*/
 
+/* Activities - experiences.html */
+.activity {
+    border-style: solid;
+    border-color: white;
+    background-color: rgba(108, 122, 137, 1);
+}
+
+.nametag {
+    color: white;
+    font-size: 20px;
+}
+
+.nametag:hover {
+    color: yellow; 
+}
+/* End of Activities - experiences.html */
+
+
 
 
