@@ -95,3 +95,29 @@ function initMap() {
     addMarkerInfo();
 }
 /*End of Javascript Map API code */
+
+/*Start of Javascript List Dropdowns - experiences.html */
+
+function showhide(tokyolist) {
+    var e = document.getElementById(tokyolist);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+}
+
+function showhide(kyotolist) {
+    var e = document.getElementById(kyotolist);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+}
+
+function showhide(osakalist) {
+    var e = document.getElementById(osakalist);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+}
+
+function showhide(sapporolist) {
+    var e = document.getElementById(sapporolist);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+}
+
+/*End of Javascript List Dropdowns - experiences.html */
+
+
