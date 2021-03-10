@@ -76,3 +76,18 @@ body {
 background: rgba(0, 0, 0, 0.5);
 }
 /*End of Hero Image & Heading Text - index.html*/
+
+/*Buttons - index.html*/
+.btn-lg {
+  border-width: medium;
+  color: white;
+  border-color:#fdc850;
+  background-color:#fb012e;
+  border-radius: 25%;
+}
+
+.btn-lg:hover {
+    background-color: black;
+}
+/*End of Buttons - index.html*/
+
