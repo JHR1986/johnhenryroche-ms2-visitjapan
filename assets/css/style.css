@@ -7,3 +7,40 @@ body {
   font-family: "lato", sans-serif;
   color: #000000;
 }
+
+/*Navigation - all pages*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 1px;
+  height: 130px;
+  z-index: 9999;
+}
+
+.navbar-brand img {
+  height: 106px;
+  margin-left: 20px;
+  width: 146px;
+}
+
+.navbar-nav li {
+  padding-right: 2px;
+  margin-right: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fb012e;
+  padding-top: 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(255, 0, 108);
+  text-decoration: underline;
+  text-decoration-color:#fdc850;
+}
+
+.navbar-collapse {
+    background: rgb(53, 59, 65);
+}
+/*End of Navigation - all pages*/
