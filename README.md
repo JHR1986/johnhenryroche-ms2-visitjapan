@@ -45,7 +45,7 @@ Photo of Site Represented on Various Media to highlight responsive design:
 - The imagery within the website is an important feature for outlining why Japan is a place that people wish to visit. On this basis, the large background hero image on the Home Page of the historic Kyoto skyline, with two figures in traditional dress in the foreground, is designed to be striking and catch the user's attention (see image below), while also highlighting the history of the country. The Enquiries page has five images highlighting nature in Japan (cherry blossom and trees in a forest), the people and the history (traditional dress and a temple and street in Kyoto). 
 
 ### Wireframes
-- My general site map and wireframes are saved to PDF and can be found here. I designed them at the start of the project and they served as the basis for this project. 
+- My general site map and wireframes are saved to PDF and can be found [here](assets/images/wireframes.pdf). I designed them at the start of the project and they served as the basis for this project. 
 - In review, the wireframes stayed generally consistent with the finished design (especially in respect of the Index.html page) but I amended page 2 and page 3, by containing all of the places to see and things to do information within one page (experiences.html), while creating a new page (enquiries.html) in order to utilise EmailJs through having a form and additional images on that page.
 
 ## Features
