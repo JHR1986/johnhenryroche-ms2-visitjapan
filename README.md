@@ -6,7 +6,7 @@
 
 This project comprises the development of a 3-page fictional website prepared by the Japanese embassy in Dublin, which is aimed at encouraging Irish people to visit Japan. The website has three pages, (i) Home, (ii) Experiences and (iii) Enquiries, and the aim of these pages is to provide an overview of what Japan has to offer, including places to visit and activities to take part in, while also allowing visitors to request a pdf brochure on Japan prepared by the Japanese embassy.    
 
-In respect of the construction of the website, it has been designed to be fully responsive, intuitive and accessible on a range of media devices (e.g. mobile, tablet & desktop), in order to make it easy for visitors to the website to navigate it and source information that they require.
+In respect of the construction of the website, it has been designed to be fully responsive, intuitive and accessible on a range of media devices (e.g. mobile, tablet & desktop), in order to make it easy for visitors to the website to navigate it and source the information that they require.
 
 Photo of Site Represented on Various Media to highlight responsive design:
 
@@ -17,7 +17,7 @@ Photo of Site Represented on Various Media to highlight responsive design:
 ### User stories:
 
 ### First Time Visitor Goals
-1.	As a First Time Visitor, I want to quickly establish what information the website has in respect of visiting Japan.
+1.	As a First Time Visitor, I want to quickly establish what information the website contains in respect of visiting Japan.
 2.	As a First Time Visitor, I want to be able to easily navigate throughout the site pages and find key information about places to visit and activities to do when you visit Japan.
 3.	As a First Time Visitor, I want to be able to go to the enquiries page and fill out the contact form in order to receive a brochure about Japan (this process can also be completed by the returning visitor). 
 
@@ -32,7 +32,7 @@ Photo of Site Represented on Various Media to highlight responsive design:
 ## Design
 
 ### Colour Scheme:
-- In line with the Bootstrap dark theme that I used for the Navbar and Footer, I used the colour of the Japanese flag (red and white), while contrasting this with shades of grey and yellow. These colours were also used to match the logo that I created for the site. 
+- In line with the Bootstrap dark theme that I used for the Navbar and Footer, I used the colour of the Japanese flag (red and white), while contrasting this with shades of grey, pink, yellow and black. These colours were also used to match the logo that I created for the site. 
 - The colours that I used for the website are detailed in the colour chart below which I prepared on coolors.co;
 
 ![colors-photo](https://user-images.githubusercontent.com/71781554/110777604-38b4b800-8259-11eb-833c-acbcf0c25706.png)
@@ -42,42 +42,44 @@ Photo of Site Represented on Various Media to highlight responsive design:
 - As per its description on the Google Fonts website, Lato is a sans serif typeface family started in the summer of 2010 by Warsaw-based designer Łukasz Dziedzic (“Lato” means “Summer” in Polish). The semi-rounded details of the letters give Lato a feeling of warmth, while the strong structure provides stability and seriousness.
 
 ### Imagery
-- The imagery within the website is an important feature for outlining why Japan is a place that people wish to visit. On this basis, the large background hero image on the Home Page of the historic Kyoto skyline, with two figures in traditional dress in the foreground, is designed to be striking and catch the user's attention (see image below), while also highlighting the history of the country. The Enquiries page has five images highlighting nature in Japan (cherry blossom and trees in a forest), the people and the history (traditional dress and a temple and street in Kyoto). 
+- The imagery within the website is an important feature for outlining why Japan is a place that people wish to visit. On this basis, the large background hero image on the Home Page of the historic Kyoto skyline, with two figures in traditional dress in the foreground, is designed to be striking and catch the user's attention (see image below), while also highlighting the history of the country. The Enquiries page has five images highlighting nature in Japan (cherry blossom flowers and trees in a forest), the people and the history (traditional dress and a temple and street in Kyoto). 
+
+![optimized-kyoto](https://user-images.githubusercontent.com/71781554/110809589-f1402300-827c-11eb-936f-e455bda72eba.jpg)
 
 ### Wireframes
 - My general site map and wireframes are saved to PDF and can be found [here](assets/images/wireframes.pdf). I designed them at the start of the project and they served as the basis for this project. 
-- In review, the wireframes stayed generally consistent with the finished design (especially in respect of the Index.html page) but I amended page 2 and page 3, by containing all of the places to see and things to do information within one page (experiences.html), while creating a new page (enquiries.html) in order to utilise EmailJs through having a form and additional images on that page.
+- In review, the wireframes stayed generally consistent with the finished design (especially in respect of the Index.html page) but I amended the proposed layout for page 2 and page 3, by containing all of the places to see and things to do information within one page (experiences.html), while creating a new page (enquiries.html) in order to utilise EmailJs through having a form and additional images on that page.
 
 ## Features
 - The website is responsive on all device sizes (and has been tested through Chrome Dev Tools on various devices including iPhone 6, iPhone X, iPad and Desktop).
 - The website has several interactive elements, including two Bootstrap buttons on the Homepage which can be clicked to navigate to the Experiences and Enquiries Pages. 
 - Each page in the website features a responsive bootstrap navigation bar with the site logo featured to the left and the three page links to the right, and these pages also each contain a 4 column footer with a copyright message, address, opening hours and contact information (email and phone). The Homepage features a large hero image, while there are various smaller images inputted in Enquiries and a large Google Map in the Experiences page. Each page has been designed to be intuitive and easy to follow, with text prepared in a concise and to the point structure, and flows in a logical manner from the Home Page to the Enquiries Page:
     - Home Page: Hero Image with Heading Text detailing the purpose of the website.
-    - Experiences Page: Google Map with four markers and information about activities in these cities detailed below.
-    - Enquiries Page: Contact Form with 5 images of life in Japan.
+    - Experiences Page: Google Map with four markers and information about activities in four cities (Tokyo, Osaka, Kyoto & Sapporo) detailed below.
+    - Enquiries Page: Contact Form with images of life in Japan (see screenshot below).
 
-Navbar: 
+Enquiry page images:
+![photos-new](https://user-images.githubusercontent.com/71781554/110811257-71b35380-827e-11eb-8523-a600c76bb3ce.png)
 
-Footer: 
 
 ## Technologies Used
 
 ### Languages Used
-- HTML5
-- CSS3
-- Javascript
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
-1.	Bootstrap 4: Bootstrap was utilised to assist with the responsiveness and styling of the website, specifically in respect of the Navigation and Footer Sections and the rows/columns used for experiences.html and enquires.html.
-2.	Google Fonts: Google Fonts was utilised to import the 'Lato' font into the style.css file and this font is used on all pages throughout the website.
-3.	Font Awesome: Font Awesome was utilised in the Index.html and experiences.html pages, as well as in the Footer, for aesthetic and UX purposes. I matched the icons with the activity or place (e.g. Kyoto represented by a temple icon as it is the historic capital) that they most closely represented.
-4.	Git: Git was used for version control throughout the project by utilizing the Gitpod terminal to Commit to git and Push to the GitHub repository.
-5.	GitHub: GitHub was used to store the code for the project after being pushed from Gitpod.
-6.	FreeLogoDesign: MyFreeLogo was used to create the Visit Japan logo.
+1.	[Bootstrap 4](https://getbootstrap.com/docs/4.6/getting-started/introduction/): Bootstrap was utilised to assist with the responsiveness and styling of the website, specifically in respect of the Navigation and Footer Sections and the rows/columns used for experiences.html and enquires.html.
+2.	[Google Fonts](https://fonts.google.com/): Google Fonts was utilised to import the 'Lato' font into the style.css file and this font is used on all pages throughout the website.
+3.	[Font Awesome](https://fontawesome.com/): Font Awesome was utilised in the Index.html and experiences.html pages, as well as in the Footer, for aesthetic and UX purposes. I matched the icons with the activity or place (e.g. Kyoto represented by a temple icon as it is the historic capital) that they most closely represented.
+4.	[Git](https://git-scm.com/): Git was used for version control throughout the project by utilizing the Gitpod terminal to Commit to git and Push to the GitHub repository.
+5.	[GitHub](https://github.com/): GitHub was used to store the code for the project after being pushed from Gitpod.
+6.	[FreeLogoDesign](https://www.freelogodesign.org/): MyFreeLogo was used to create the Visit Japan logo.
 7.	Favicon: I used a Favicon image of the logo and added it to all three pages.
-8.	Photo Optimiser: I utilised photo optimiser to ensure that the high quality images that I used from the Unsplash website would load in a fast time.
-9.	Balsamiq: Balsamiq was used to create the wireframes during the initial design phase.
-10.	Coolors: I prepared the screenshot included in this Readme of the colours I had selected for this project using the Coolors template.
+8.	[Free Image Optimiser](http://www.imageoptimizer.net/Pages/Home.aspx): I utilised photo optimiser to ensure that the high quality images that I used from the Unsplash website would load in a fast time.
+9.	[Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQiAnKeCBhDPARIsAFDTLTJ5qmGTj2XQK_FoiFP6eKlzn-5oxqsh5N5hjjYKaGvx1AKPc1wb48EaAoSYEALw_wcB): Balsamiq was used to create the wireframes during the initial design phase.
+10.	[Coolors](https://coolors.co/): I prepared the screenshot included in this Readme of the colours I had selected for this project using the Coolors template.
 
 ## Testing
 
@@ -115,10 +117,10 @@ By forking the GitHub Repository, this enables you to make a copy of the origina
 ### Code
 - [Background Colour for Hero Image Text](https://stackoverflow.com/questions/14310154/how-do-i-set-a-background-color-for-the-width-of-text-not-the-width-of-the-enti): I studied this post in order to fully understand how to input a background colour into the text on the hero image for index.html, in order that the text would be clear to the viewer and would not be obscured. 
 - [Google Map with Markers and Pop Up Text](https://stackoverflow.com/questions/11106671/google-maps-api-multiple-markers-with-infowindows): I utilised the basic code from this post in order to create an API Map with markers which had popup text with the city name, and then amended it to centre over Japan with the right zoom, focus on four cities in Japan (Tokyo, Kyoto, Osaka and Sapporo) and included additional text relating to facts about these places. 
-- [Dropdown List of Activities Using JavaScript](https://stackoverflow.com/questions/16308779/how-can-i-hide-show-a-div-when-a-button-is-clicked): I studied this code in order to understand how to create a hypertext reference within each of the 4 Divs, to create dropdown lists of activities which show when the title (e.g. Tokyo – Click for Activities) is clicked, as I wished to add more JavaScript functionality to my website.
+- [Dropdown List of Activities Using JavaScript](https://stackoverflow.com/questions/16308779/how-can-i-hide-show-a-div-when-a-button-is-clicked): I studied this code in order to understand how to create a hypertext reference within each of the 4 Divs listed in the Experiences page, to create dropdown lists of activities which show when the title (e.g. Tokyo – Click for Activities) is clicked, as I wished to add more JavaScript functionality to my website.
 - [Modal Pop Up for Enquiries Page](https://getbootstrap.com/docs/4.6/components/modal/): I used the code in the Bootstrap documentation as a basis for my modal popup in the enquiries page, while editing the text, style and buttons within the modal. 
 - I used the Bootstrap Library throughout the project to make the site more responsive through using the Bootstrap Grid System and employing Bootstrap elements for the Navbar, Footer, Jumbotron, Sections and Query Form.
-- I studied the Code Institute lesson on Sending Emails Using EmailJS in order to setup this system, while rearranging the code from the lesson to adapt it to my website (e.g. the recipient of email and all of the text within the email was amended). 
+- I studied the Code Institute lesson on Sending Emails Using EmailJS in order to setup this system, while rearranging the code from the lesson to adapt it to my website (e.g. the recipient of the email and all of the text within the email was amended). 
 - [Responsive Bootstrap Website Start To Finish with Bootstrap 4, HTML5 & CSS3](https://www.youtube.com/watch?v=9cKsq14Kfsw&t=929s): I watched this Youtube tutorial before I commenced my project to gain a more detailed understanding of how to construct the Navbar, Footer and Jumbotron for my site.
 
 ### Content
