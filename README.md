@@ -1,9 +1,19 @@
-Visit Japan
-Travel Website - Milestone Project 2
-View the Live Website Here
-This project comprises the development of a 3-page fictional website prepared by the Japanese embassy in Dublin, which is aimed at encouraging Irish people to visit Japan. The website has three pages, (i) Home, (ii) Experiences and (iii) Enquiries, and the aim of these pages is to provide an overview of what Japan has to offer, including places to visit and activities to take part in, while also allowing visitors to request a pdf brochure on Japan prepared by the Japanese embassy.    
+# Visit Japan
+
+## Travel Website - Milestone Project 2
+
+[View the Live Website Here](https://jhr1986.github.io/johnhenryroche-ms2-visitjapan/)
+
+This project comprises the development of a 3-page fictional website prepared by the Japanese embassy in Dublin, which is aimed at encouraging Irish people to visit Japan. The website has three pages, (i) Home, (ii) Experiences and (iii) Enquiries, and the aim of these pages is to provide an overview of what Japan has to offer, including places to visit and activities to take part in, while also allowing visitors to request a pdf brochure on what Japan has to offer prepared by the Japanese embassy.    
+
 In respect of the construction of the website, it has been designed to be fully responsive, intuitive and accessible on a range of media devices (e.g. mobile, tablet & desktop), in order to make it easy for visitors to the website to navigate it and source information that they require.
+
 Photo of Site Represented on Various Media to highlight responsive design:
+
+![Responsive-photo](https://user-images.githubusercontent.com/71781554/110772746-de652880-8253-11eb-8952-f943fe1eead1.png)
+
+
+
 
 User Experience (UX)
 User stories:
