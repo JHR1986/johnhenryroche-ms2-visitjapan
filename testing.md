@@ -5,7 +5,7 @@
 [View the Live Website Here](https://jhr1986.github.io/johnhenryroche-ms2-visitjapan/)
 
 ## Testing
-- The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project (3 html pages and 1 css page) in order to ensure that there were no syntax errors in the project (e.g. the code was fully accurate and correctly structured throughout). This testing confirmed that the code was fully in order (no errors found in testing). The JavaScript files were also tested in JSHint and no errors were recorded. There was a warning message in respect of the Maps JavaScript code as follows; “Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (closeOtherInfo, InforObj)”, but having queries this with Tutor Support they advised that the code needed to be written this way to work correctly and that this was not an error. 
+- The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project (3 html pages and 1 css page) in order to ensure that there were no syntax errors in the project (e.g. the code was fully accurate and correctly structured throughout). This testing confirmed that the code was fully in order (no errors found in testing). The JavaScript files were also tested in JSHint and no errors were recorded. There was a warning message in respect of the Maps JavaScript code as follows; “Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (closeOtherInfo, InforObj)”, but having queried this comment with Tutor Support they advised that the code needed to be written this way to work correctly and that there was no issue. 
 
 ### Client stories testing:
 The most direct path through the website is as follows:
@@ -14,7 +14,7 @@ The most direct path through the website is as follows:
     1. From Home – Enquiries
     2. From Home – Experiences
 
-The Home page also provides a brief introduction to Japan and the information is kept very concise in order that the user does not feel overloaded.
+The Home page also provides a brief introduction to Japan (with general information about its history, people and culture) and the information is kept very concise in order that the user does not feel overloaded.
 
 ### Testing client stories from UX section of main Readme File:
 
@@ -121,7 +121,7 @@ As a Frequent/Returning Visitor, I want to see if any additional information abo
 - The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers, and was found to operate satisfactorily on all of these.
 - I also tested the website in Google Lighthouse, which returned the following scores; (i) Performance: 60, (ii) Accessibility: 88, (iii) Best Practices: 80 & (iv) SEO: 92.
 - The website was viewed on a variety of devices such as Desktop, iPad, iPhone 6 & iPhone X. All formats were in order with no sections out of line or overlapping.
-- I completed a large amount of detailed testing to ensure that all links were working correctly and that external links opened, and was happy that there were no broken links. This involved going into every page of the site and clicking every link/button that is available to a user (as part of their journey through the site) to ensure that everything was fully functional (see manual testing section above). I also checked the console in Devtools and there were no error reports on any of the pages.
+- I completed a large amount of detailed testing to ensure that all links were working correctly and that external links opened (as detailed above), and was happy that there were no broken links. This involved going into every page of the site and clicking every link/button that is available to a user (as part of their journey through the site) to ensure that everything was fully functional (see manual testing section above). I also checked the console in Devtools and there were no error reports on any of the pages.
 - As part of the testing process, my family members were asked to review the site and documentation to point out any bugs and/or user experience issues, and I also listed the project on the Peer Review channel on Slack to take on board any suggestions offered from that.
 
 ### Known Bugs
