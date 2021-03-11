@@ -68,7 +68,7 @@ body {
   font-size: 45px;
   font-weight: 400;
   letter-spacing: 2px;
-  text-shadow: 1px 1px 0.8px black;
+  text-shadow: 1px 1px 0.8px #000000;
   padding-bottom: 20px;
 }
 
@@ -80,14 +80,14 @@ background: rgba(0, 0, 0, 0.5);
 /*Buttons - index.html*/
 .btn-lg {
   border-width: medium;
-  color: white;
+  color: #ffffff;
   border-color:#fdc850;
   background-color:#fb012e;
   border-radius: 25%;
 }
 
 .btn-lg:hover {
-    background-color: black;
+    background-color: #000000;
 }
 /*End of Buttons - index.html*/
 
@@ -99,7 +99,7 @@ background: rgba(0, 0, 0, 0.5);
 
 .display-4 {
     font-size: 30px;
-    color: pink;
+    color: #ffc0cb;
 }
 
 .welcome hr {
@@ -113,7 +113,7 @@ background: rgba(0, 0, 0, 0.5);
 /*Activities Text - index.html*/
 .fonticon {
     font-size: 50px;
-    color: pink;
+    color: #ffc0cb;
 }
 
 .brochure {
@@ -126,7 +126,7 @@ background: rgba(0, 0, 0, 0.5);
 
 .textstyling {
     background-color: rgba(108, 122, 137, 1);
-  color: white;
+  color: #ffffff;
   opacity: 0.9;
   padding-bottom: 5px;
 }
@@ -152,7 +152,7 @@ footer .row {
 
 /* Start of Colour for Background - experiences.html */
 .backgroundcolor { 
-    background:rgba(251,1,46, 0.8);
+    background:rgba(251,1,46,0.8);
 }
 /* End of Colour for Background - experiences.html */
 
@@ -160,7 +160,7 @@ footer .row {
 .display-1 {
     font-size: 50px;
     text-align: center;
-    color: white;
+    color: #ffffff;
     padding-top: 10px;
 }
 /* End of Main Heading - experiences.html */
@@ -176,17 +176,17 @@ div#map {
 /* Activities - experiences.html */
 .activity {
     border-style: solid;
-    border-color: white;
+    border-color: #ffffff;
     background-color: rgba(108, 122, 137, 1);
 }
 
 .nametag {
-    color: white;
+    color: #ffffff;
     font-size: 20px;
 }
 
 .nametag:hover {
-    color: yellow; 
+    color: #fdc850; 
 }
 /* End of Activities - experiences.html */
 
@@ -209,13 +209,13 @@ div#map {
 
 .enquiry-form {
   padding: 10px;
-  color: white;
+  color: #ffffff;
 }
 
 .enquirybtn {
   margin: auto;
   text-align: center;
-  background-color: red;
+  background-color: #fb012e;
 }
 
 .modal {
@@ -240,14 +240,14 @@ div#map {
 }
 
 .images {
-    border: 1px solid black;
+    border: 1px solid #000000;
   background: rgba(0, 0, 0, 0.5);
 }
 
 .images img {
   height: 210px;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid #000000;
 }
 /*End of Enquiry Page Images*/
 
