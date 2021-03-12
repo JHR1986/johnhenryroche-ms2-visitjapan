@@ -1,6 +1,7 @@
 /*jshint esversion: 6 */
 
 /*Start of Javascript Map API code */
+/* I utilised the basic code from a Stackoverflow post in order to create an API Map with markers, and then amended it to centre over Japan with the right zoom, focus on four cities in Japan and included additional text relating to facts about these places - see Readme */
 var map;
 var InforObj = [];
 var centerCords = {
@@ -97,7 +98,7 @@ function initMap() {
 /*End of Javascript Map API code */
 
 /*Start of Javascript List Dropdowns - experiences.html */
-
+/* See experiences.html page and Readme for comment on code below */
 function showhide(tokyolist) {
     var e = document.getElementById(tokyolist);
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
