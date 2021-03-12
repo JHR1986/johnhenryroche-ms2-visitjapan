@@ -218,11 +218,11 @@ div#map {
 }
 
 .modal {
-   width: 300px;
-   height: 300px;
+   width: 310px;
+   height: 310px;
    position: absolute;
-   left: 50%;
-   top: 60%; 
+   left: 45%;
+   top: 55%; 
    margin-left: -150px;
    margin-top: -150px;
 }
