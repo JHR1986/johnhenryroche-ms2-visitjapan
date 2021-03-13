@@ -244,8 +244,8 @@ div#map {
 }
 
 .images img {
-  height: 260px;
-  width: 90%;
+  height: 280px;
+  width: 100%;
   border: 1px solid #000000;
 }
 /*End of Enquiry Page Images*/
