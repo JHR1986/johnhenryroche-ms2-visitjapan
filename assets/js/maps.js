@@ -2,14 +2,14 @@
 
 /*Start of Javascript Map API code */
 /* I utilised the basic code from a Stackoverflow post in order to create an API Map with markers, and then amended it to centre over Japan with the right zoom, focus on four cities in Japan and included additional text relating to facts about these places - see Readme */
-var map;
-var InforObj = [];
-var centerCords = {
+let map;
+let inforObj = [];
+let centerCords = {
 
     lat: 38.2682,
     lng: 140.8694
 };
-var markersOnMap = [{
+let markersOnMap = [{
     placeName: "Tokyo",
     text: "The de facto capital and most populous prefecture of Japan, with a population of approximately 37m. Tokyo is the political and economic centre of the country, as well as the seat of the Emperor of Japan and the national government.",
     LatLng: [{
@@ -48,8 +48,8 @@ window.onload = function () {
 };
 
 function addMarkerInfo() {
-    for (var i = 0; i < markersOnMap.length; i++) {
-        var contentString = '<div id="content"><h2>' + markersOnMap[i].placeName +
+    for (let i = 0; i < markersOnMap.length; i++) {
+        let contentString = '<div id="content"><h2>' + markersOnMap[i].placeName +
             '</h2><p>' + markersOnMap[i].text + '</p></div>';
 
         const marker = new google.maps.Marker({
@@ -65,26 +65,16 @@ function addMarkerInfo() {
         marker.addListener('click', function () {
             closeOtherInfo();
             infowindow.open(marker.get('map'), marker);
-            InforObj[0] = infowindow;
+            inforObj[0] = infowindow;
         });
-        // marker.addListener('mouseover', function () {
-        //     closeOtherInfo();
-        //     infowindow.open(marker.get('map'), marker);
-        //     InforObj[0] = infowindow;
-        // });
-        // marker.addListener('mouseout', function () {
-        //     closeOtherInfo();
-        //     infowindow.close();
-        //     InforObj[0] = infowindow;
-        // });
     }
 }
 
 function closeOtherInfo() {
-    if (InforObj.length > 0) {
-        InforObj[0].set("marker", null);
-        InforObj[0].close();
-        InforObj.length = 0;
+    if (inforObj.length > 0) {
+        inforObj[0].set("marker", null);
+        inforObj[0].close();
+        inforObj.length = 0;
     }
 }
 
@@ -100,25 +90,27 @@ function initMap() {
 /*Start of Javascript List Dropdowns - experiences.html */
 /* See experiences.html page and Readme for comment on code below */
 function showhide(tokyolist) {
-    var e = document.getElementById(tokyolist);
+    let e = document.getElementById(tokyolist);
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
 }
 
 function showhide(kyotolist) {
-    var e = document.getElementById(kyotolist);
+    let e = document.getElementById(kyotolist);
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
 }
 
 function showhide(osakalist) {
-    var e = document.getElementById(osakalist);
+    let e = document.getElementById(osakalist);
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
 }
 
 function showhide(sapporolist) {
-    var e = document.getElementById(sapporolist);
+    let e = document.getElementById(sapporolist);
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
 }
 
 /*End of Javascript List Dropdowns - experiences.html */
+
+
 
 
