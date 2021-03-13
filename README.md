@@ -149,6 +149,7 @@ By forking the GitHub Repository, this enables you to make a copy of the origina
 - I used the Bootstrap Library throughout the project to make the site more responsive through using the Bootstrap Grid System and employing Bootstrap elements for the Navbar, Footer, Jumbotron, Sections and Query Form.
 - I studied the Code Institute lesson on Sending Emails Using EmailJS in order to setup this system, while rearranging the code from the lesson to adapt it to my website (e.g. the recipient of the email and all of the text within the email was amended). 
 - [Responsive Bootstrap Website Start To Finish with Bootstrap 4, HTML5 & CSS3](https://www.youtube.com/watch?v=9cKsq14Kfsw&t=929s): I watched this Youtube tutorial before I commenced my project to gain a more detailed understanding of how to construct the Navbar, Footer and Jumbotron for my site.
+- [Table of Contents for Readme] (https://ecotrust-canada.github.io/markdown-toc/): I utilised this tool to understand how to construct a table of contents section for my Readme file.
 
 ### Content
 - All content within this project was written by the developer.
