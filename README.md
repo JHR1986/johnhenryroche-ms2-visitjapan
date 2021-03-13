@@ -1,5 +1,31 @@
 # Visit Japan
 
+- [Travel Website - Milestone Project 2](#travel-website---milestone-project-2)
+- [User Experience](#user-experience)
+  * [User stories](#user-stories)
+  * [First Time Visitor Goals](#first-time-visitor-goals)
+  * [Returning Visitor Goals](#returning-visitor-goals)
+  * [Frequent Visitor Goals](#frequent-visitor-goals)
+- [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
+- [Testing](#testing)
+- [Deployment](#deployment)
+  * [GitHub Pages](#github-pages)
+  * [Forking the GitHub Repository](#forking-the-github-repository)
+  * [Making a Local Clone](#making-a-local-clone)
+- [Credits](#credits)
+  * [Code](#code)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgements](#acknowledgements)
+
 ## Travel Website - Milestone Project 2
 
 [View the Live Website Here](https://jhr1986.github.io/johnhenryroche-ms2-visitjapan/)
@@ -12,9 +38,9 @@ Photo of Site Represented on Various Media to highlight responsive design:
 
 ![Responsive-photo](https://user-images.githubusercontent.com/71781554/110772746-de652880-8253-11eb-8952-f943fe1eead1.png)
 
-## User Experience (UX)
+## User Experience 
 
-### User stories:
+### User stories
 
 ### First Time Visitor Goals
 1.	As a First Time Visitor, I want to quickly establish what information the website contains in respect of visiting Japan.
@@ -25,19 +51,19 @@ Photo of Site Represented on Various Media to highlight responsive design:
 1.	As a Returning Visitor, I want to request a brochure and email the Visit Japan team with any queries that I have about visiting Japan.
 2.	As a Returning Visitor, I want to be able to easily access the key information in respect of contacting the Japanese Embassy in Dublin and their opening hours and location (all contained within the footer).
 
-### Frequent/Returning Visitor Goals
+### Frequent Visitor Goals
 1.	As a Frequent/Returning Visitor, I want to see if any additional information about Japan has been added to the Experiences page (e.g. are they focusing on other areas cities in Japan that the person may wish to visit). 
 2.	As a Frequent/Returning Visitor, I want to able to contact the Japanese embassy with further queries (e.g. visa issues) about visiting Japan and all of the relevant contact information is in the footer.
 
 ## Design
 
-### Colour Scheme:
+### Colour Scheme
 - In line with the Bootstrap dark theme that I used for the Navbar and Footer, I used the colour of the Japanese flag (red and white), while contrasting this with shades of grey, pink, yellow and black. These colours were also used to match the logo that I created for the site. 
 - The colours that I used for the website are detailed in the colour chart below which I prepared on coolors.co;
 
 ![colors-photo](https://user-images.githubusercontent.com/71781554/110777604-38b4b800-8259-11eb-833c-acbcf0c25706.png)
  
-### Typography:
+### Typography
 - The Lato font (which I downloaded from Google Fonts) is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the Lato font fails to be imported correctly.
 - As per its description on the Google Fonts website, Lato is a sans serif typeface family started in the summer of 2010 by Warsaw-based designer Łukasz Dziedzic (“Lato” means “Summer” in Polish). The semi-rounded details of the letters give Lato a feeling of warmth, while the strong structure provides stability and seriousness.
 
