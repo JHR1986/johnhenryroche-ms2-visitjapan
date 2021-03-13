@@ -3,7 +3,7 @@
 /*Start of Javascript Map API code */
 /* I utilised the basic code from a Stackoverflow post in order to create an API Map with markers, and then amended it to centre over Japan with the right zoom, focus on four cities in Japan and included additional text relating to facts about these places - see Readme */
 let map;
-let inforObj = [];
+let infoObject = [];
 let centerCords = {
 
     lat: 38.2682,
@@ -65,16 +65,16 @@ function addMarkerInfo() {
         marker.addListener('click', function () {
             closeOtherInfo();
             infowindow.open(marker.get('map'), marker);
-            inforObj[0] = infowindow;
+            infoObject[0] = infowindow;
         });
     }
 }
 
 function closeOtherInfo() {
-    if (inforObj.length > 0) {
-        inforObj[0].set("marker", null);
-        inforObj[0].close();
-        inforObj.length = 0;
+    if (infoObject.length > 0) {
+        infoObject[0].set("marker", null);
+        infoObject[0].close();
+        infoObject.length = 0;
     }
 }
 
