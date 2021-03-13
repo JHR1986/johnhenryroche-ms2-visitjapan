@@ -179,6 +179,11 @@ div#map {
     background-color: rgba(108, 122, 137, 1);
 }
 
+.activitylist {
+    color: #353839;
+    background-color: #ffffff;
+}
+
 .nametag {
     color: #ffffff;
     font-size: 20px;
