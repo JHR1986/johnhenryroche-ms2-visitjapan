@@ -4,11 +4,25 @@
 
 [View the Live Website Here](https://jhr1986.github.io/johnhenryroche-ms2-visitjapan/)
 
+- [Testing](#testing)
+  * [Client stories testing](#client-stories-testing)
+  * [Testing client stories from UX section of main Readme File](#testing-client-stories-from-ux-section-of-main-readme-file)
+    + [First Time Visitor Goals](#first-time-visitor-goals)
+    + [Returning Visitor Goals](#returning-visitor-goals)
+    + [Frequent Visitor Goals](#frequent-visitor-goals)
+  * [Manual logical testing of all elements and functionality on every page](#manual-logical-testing-of-all-elements-and-functionality-on-every-page)
+    + [Home Page](#home-page)
+    + [Experiences](#experiences)
+    + [Enquiries](#enquiries)
+- [Further Testing](#further-testing)
+  * [Further Testing Details](#further-testing-details)
+  * [Known Bugs](#known-bugs)
+
 ## Testing
 - The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project (3 html pages and 1 css page) in order to ensure that there were no syntax errors in the project (e.g. the code was fully accurate and correctly structured throughout). This testing confirmed that the code was fully in order (no errors found in testing). The JavaScript files were also tested in JSHint and no errors were recorded. There was a warning message in respect of the Maps JavaScript code as follows; “Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (closeOtherInfo, InforObj)”, but having queried this comment with Tutor Support they advised that the code needed to be written this way to work correctly and that there was no issue. 
 - Alt tags were added to all images for accessibility purposes. I checked to see if an alt tag could be added to the Google Map API, but it was noted in this [post](https://mlitzinger.com/blog/making-google-maps-controls-more-accessible/) that Google Maps does not include alt attributes (blank or otherwise). 
 
-### Client stories testing:
+### Client stories testing
 The most direct path through the website is as follows:
 - Home – Experiences – Enquiries
 - On the Home page, the visitor is presented with the option of going directly to the Enquiries page to complete the contact form and request a brochure or to go to the Experiences page if they wish to find out more about places to visit and things to do in Japan. The home page points to the experiences and enquiries pages through two call to action buttons (as detailed below); 
@@ -17,9 +31,9 @@ The most direct path through the website is as follows:
 
 The Home page also provides a brief introduction to Japan (with general information about its history, people and culture) and the information is kept very concise in order that the user does not feel overloaded.
 
-### Testing client stories from UX section of main Readme File:
+### Testing client stories from UX section of main Readme File
 
-#### First Time Visitor Goals:
+#### First Time Visitor Goals
 As a First Time Visitor, I want to quickly establish what information the website has in respect of visiting Japan:
 - The home page has a general synopsis of Japan and a striking hero image of Kyoto, and there is a prominent navigation bar for clicking to the Experiences page. 
 
@@ -36,15 +50,15 @@ As a Returning Visitor, I want to request a brochure and email the Visit Japan t
 As a Returning Visitor, I want to be able to easily access the key information in respect of contacting the Japanese Embassy in Dublin and their opening hours and location (all contained within the footer):
 - The footer to each of three pages lists the Japanese embassy’s address in Dublin, their opening hours and phone/email address so any subsequent queries can be addressed.
 
-#### Frequent/Returning Visitor Goals
+#### Frequent Visitor Goals
 As a Frequent/Returning Visitor, I want to able to contact the Japanese embassy with further queries (e.g. visa issues) about visiting Japan.
 - As highlighted in the frequent visitor section, contact information for the Japanese embassy in Dublin is listed in the footer of each of the three pages.
 As a Frequent/Returning Visitor, I want to see if any additional information about Japan has been added to the Experiences page (e.g. are they focusing on other areas cities in Japan that the person may wish to visit).
 - With the site being updated on a regular basis, the experiences page will list different Japanese cities and activities to do, so that the user can find out more about Japan when they return to the site. 
 
-### Manual (logical) testing of all elements and functionality on every page.
+### Manual logical testing of all elements and functionality on every page
 
-## Home Page:
+#### Home Page
 1.	Navigation bar:
     - Go to the "Home" page from a desktop.
     - Change the screen size from desktop to tablet to verify that the navigation bar is responsive and switches from in line menu to burger icon dropdown menu at the appropriate place.
@@ -70,7 +84,7 @@ As a Frequent/Returning Visitor, I want to see if any additional information abo
 
 5.	Review all functionality and responsiveness on my mobile phone and tablet.
 
-## Experiences:
+#### Experiences
 1.	Navigation bar:
     - Repeat verification steps done for navbar on Home page.
     - Confirm that navbar code is identical on all html pages.
@@ -93,7 +107,7 @@ As a Frequent/Returning Visitor, I want to see if any additional information abo
 
 6.	Review all functionality and responsiveness on my mobile phone and tablet.
 
-### Enquiries:
+#### Enquiries
 1.	Navigation bar:
     - Repeat verification steps done for navbar on Home & Experiences page.
     - Confirm that navbar code is identical on all html pages.
@@ -115,9 +129,9 @@ As a Frequent/Returning Visitor, I want to see if any additional information abo
 
 5.	Review all functionality and responsiveness on my mobile phone and tablet.
 
-## Further Testing:
+## Further Testing
 
-### Further Testing:
+### Further Testing Details
 
 - The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers, and was found to operate satisfactorily on all of these.
 - I also tested the website in Google Lighthouse, which returned the following scores; (i) Performance: 60, (ii) Accessibility: 88, (iii) Best Practices: 80 & (iv) SEO: 92.
