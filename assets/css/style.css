@@ -151,7 +151,7 @@ footer .row {
 
 /* Start of Colour for Background - experiences.html */
 .backgroundcolor { 
-    background:rgba(251,1,46,0.8);
+    background:#ffffff;
 }
 /* End of Colour for Background - experiences.html */
 
@@ -159,7 +159,7 @@ footer .row {
 .display-1 {
     font-size: 50px;
     text-align: center;
-    color: #ffffff;
+    color: rgba(251,1,46,0.8);
     padding-top: 10px;
 }
 /* End of Main Heading - experiences.html */
@@ -168,7 +168,7 @@ footer .row {
 div#map {
     min-height: 360px;
     min-width: 360px;
-    height: 600px;
+    height: 700px;
 }
 /*End of Map Section – experiences.html*/
 
