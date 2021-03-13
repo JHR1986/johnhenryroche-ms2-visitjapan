@@ -46,7 +46,7 @@ body {
 
 /*Hero Image & Heading Text - index.html*/
 .hero-image {
-  height: 650px;
+  height: 700px;
   background: url("../images/optimized-kyoto.jpg");
   background-position: center;
   background-repeat: no-repeat;
