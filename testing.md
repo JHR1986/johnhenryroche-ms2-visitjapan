@@ -19,7 +19,10 @@
   * [Known Bugs](#known-bugs)
 
 ## Testing
-- The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project (3 html pages and 1 css page) in order to ensure that there were no syntax errors in the project (e.g. the code was fully accurate and correctly structured throughout). This testing confirmed that the code was fully in order (no errors found in testing). The JavaScript files were also tested in JSHint and no errors were recorded. There was a warning message in respect of the Maps JavaScript code as follows; “Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (closeOtherInfo, InforObj)”, but having queried this comment with Tutor Support they advised that the code needed to be written this way to work correctly and that there was no issue. 
+- The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project (3 html pages and 1 css page) in order to ensure that there were no syntax errors in the project (e.g. the code was fully accurate and correctly structured throughout). 
+![testing-photos-new](https://user-images.githubusercontent.com/71781554/111032364-b4526880-8403-11eb-80df-10194d934e6b.png)
+- The JavaScript files were also tested in JSHint and no errors were recorded. There was a warning message in respect of the Maps JavaScript code as follows; “Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (closeOtherInfo, infoObject)”, but having queried this comment with Tutor Support they advised that the code needed to be written this way to work correctly and that there was no issue. 
+![testing-js-new](https://user-images.githubusercontent.com/71781554/111032585-d6001f80-8404-11eb-9ffd-6769764c50ed.png)
 - Alt tags were added to all images for accessibility purposes. I checked to see if an alt tag could be added to the Google Map API, but it was noted in this [post](https://mlitzinger.com/blog/making-google-maps-controls-more-accessible/) that Google Maps does not include alt attributes (blank or otherwise). 
 
 ### Client stories testing
