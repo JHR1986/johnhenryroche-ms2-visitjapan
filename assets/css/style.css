@@ -173,10 +173,53 @@ div#map {
 /*End of Map Section – experiences.html*/
 
 /* Activities - experiences.html */
-.activity {
-    border-style: solid;
-    border-color: #ffffff;
-    background-color: rgba(108, 122, 137, 1);
+.activitytext {
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+
+.tokyoinfo {
+  height: 300px;
+  background: url("../images/optimized-tokyo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-style: solid;
+  border-color: #ffffff;
+}
+
+.kyotoinfo {
+  height: 300px;
+  background: url("../images/optimized-kyototemple.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-style: solid;
+  border-color: #ffffff;
+}
+
+.osakainfo {
+  height: 300px;
+  background: url("../images/optimized-osaka.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-style: solid;
+  border-color: #ffffff;
+}
+
+.sapporoinfo {
+  height: 300px;
+  background: url("../images/optimized-sapporo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-style: solid;
+  border-color: #ffffff;
 }
 
 .activitylist {
