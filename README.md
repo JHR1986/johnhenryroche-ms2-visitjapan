@@ -14,7 +14,7 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
+  * [Frameworks and Libraries and Programs Used](#frameworks-and-libraries-and-programs-used)
 - [Testing](#testing)
 - [Deployment](#deployment)
   * [GitHub Pages](#github-pages)
@@ -96,7 +96,7 @@ Enquiry Page Images:
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
-### Frameworks, Libraries & Programs Used
+### Frameworks and Libraries and Programs Used
 1.	[Bootstrap 4](https://getbootstrap.com/docs/4.6/getting-started/introduction/): Bootstrap was utilised to assist with the responsiveness and styling of the website, specifically in respect of the Navigation and Footer Sections and the rows/columns used for experiences.html and enquires.html.
 2.	[Google Fonts](https://fonts.google.com/): Google Fonts was utilised to import the 'Lato' font into the style.css file and this font is used on all pages throughout the website.
 3.	[Font Awesome](https://fontawesome.com/): Font Awesome was utilised in the Index.html and experiences.html pages, as well as in the Footer, for aesthetic and UX purposes. I matched the icons with the activity or place (e.g. Kyoto represented by a temple icon as it is the historic capital) that they most closely represented.
