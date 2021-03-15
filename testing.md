@@ -119,8 +119,8 @@ This is a complete account of the testing process for the site from start to fin
     - Confirm that the Navbar is identical on all html pages.
 
 2.	Bootstrap Form
-    - Enter details into all form inputs, ensuring that form will not send if an input is blank.
-    - Hit submit button and confirm that modal appears correctly for all device widths, confirming that the request has been issued.
+    - Enter details into all form inputs, ensuring that email will not be sent if an input is blank (see Known Bugs section below for summary).
+    - Hit submit button (when all fields are completed) and confirm that modal appears correctly for all device widths, confirming that the request has been issued.
     - Receive email from Visit Japan (jhrdevelopment1@gmail.com - the email I set up for testing) detailing that request has been sent and a reply with brochure will be issued shortly.
     - Reduce and expand width of window to verify that the form responds as expected, and that it fits correctly on all device widths from mobile to tablet to desktop.
 
@@ -148,4 +148,11 @@ This is a complete account of the testing process for the site from start to fin
 - As part of the testing process, my family members were asked to review the site and documentation to point out any bugs and/or user experience issues, and I also listed the project on the Peer Review channel on Slack to take on board any suggestions offered from that.
 
 ### Known Bugs
-- N/A – There are no known bugs that I have recorded while testing the website.
+- As per the Sending Emails Using EmailJS lesson in Code Institute, I included "Return False" at the end of the JavaScript code in emailjs.js in order that the form would not refresh when the submit button was clicked, as this would prevent the EmailJS email from being issued.
+On this basis, I created a modal for the form where a text popup would show when the "Request Information" button is clicked. I noted when testing that the "required" attribute that I had inserted into each input would highlight when a field was missing required information, but that the modal popup text would still be seen when the button was clicked. 
+Therefore, I amended the wording to confirm to the user that their email address is required for them to receive an email; "Thank you for expressing your interest in Visit Japan. If you have correctly inputted your details and email address (required), you will shortly receive an email from Visit Japan!". 
+I reviewed several online posts to see if I could amend the code to only show the popup box when the form was fully validated, but was not able to find a suitable answer, so I chose to confirm to the user (in the popup text) that submitting their email is required for receiving an email from Visit Japan.
+
+
+
+
