@@ -23,12 +23,12 @@
 ![testing-photos-new](https://user-images.githubusercontent.com/71781554/111032364-b4526880-8403-11eb-80df-10194d934e6b.png)
 - The JavaScript files were also tested in JSHint and no errors were recorded (as well as no errors being recorded in DevTools). There was a message presented in respect of the Maps JavaScript code as follows; “Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (closeOtherInfo, infoObject)”, but having queried this comment with Code Institute Tutor Support they advised that the code needed to be written in this form in order for it to work correctly and that there was no issue with having this message. 
 ![testing-js-new](https://user-images.githubusercontent.com/71781554/111032585-d6001f80-8404-11eb-9ffd-6769764c50ed.png)
-- Alt tags were added to all images for accessibility purposes. I checked to see if an alt tag could be added to the Google Map API, but it was noted in this [post](https://mlitzinger.com/blog/making-google-maps-controls-more-accessible/) that Google Maps does not include alt attributes (blank or otherwise). 
+- Alt tags were added to all images for accessibility purposes. I checked to see if an alt tag should be added to the Google Map API, but it was noted in this [post](https://mlitzinger.com/blog/making-google-maps-controls-more-accessible/) that Google Maps does not include alt attributes (blank or otherwise). 
 
 ### Client Stories Testing
 The most direct path through the website is as follows:
 - Home – Experiences – Enquiries
-- On the Home page, the visitor is presented with the option of going directly to the Enquiries page to complete the contact form and request a pdf brochure or to go to the Experiences page if they wish to find out more about places to visit and things to do in Japan. The home page points to the experiences and enquiries pages through two call to action buttons (as detailed below); 
+- On the Home page, the visitor is presented with the option of going directly to the Enquiries page to complete the contact form and request a pdf brochure or to go to the Experiences page if they wish to find out more about places to visit and things to do in Japan. The home page points to the Experiences and Enquiries pages through two call to action buttons (as detailed below); 
     1. "Request Brochure": From Home – Enquiries
     2. "What to do in Japan": From Home – Experiences
 
@@ -81,7 +81,7 @@ This is a complete account of the testing process for the site from start to fin
     - Confirm that the Hero Image (kyoto skyline with two people in Kimonos) is correctly appearing on screen and that the main hero image text over it is fully responsive when the width of the window is reduced to mobile.
 	
 3. Introduction Text:
-    - Reduce and expand the width of the window to confirm that the text in this section responds correctly and appears appropriately on all device widths, and that the font-awesome icons and background color are working as inputted.
+    - Reduce and expand the width of the window to confirm that the text in this section responds correctly and appears appropriately on all device widths, and that the Font Awesome icons and background color are working as inputted.
 	
 4. Footer:
     - Confirm that the Font Awesome icons in the footer are visible and correctly formatted and that all text is spaced and clearly visible.
@@ -133,7 +133,7 @@ This is a complete account of the testing process for the site from start to fin
     - Repeat verification steps completed for the Footer on Home and Experiences page.
     - Confirm that the Footer is identical on all html pages.
 
-5.	Review all functionality and responsiveness on my mobile phone and tablet for the Experiences Page and confirm that everything on this page is correct.
+5.	Review all functionality and responsiveness on my mobile phone and tablet for the Enquiries Page and confirm that everything on this page is correct.
 
 ## Further Testing
 
