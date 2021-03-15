@@ -75,7 +75,7 @@ Photo of Site Represented on Various Media to highlight responsive design:
 
 ### Wireframes
 - My general site map and wireframes are saved to PDF and can be found [here](assets/images/wireframes.pdf). I designed them at the start of the project and they served as the basis for this project. 
-- In review, the wireframes stayed generally consistent with the finished design (especially in respect of the Index.html page) but I amended the proposed layout of the other two HTML pages, by containing all of the places to see and things to do information within one page (experiences.html), while creating a new page (enquiries.html) containing a Bootstrap form and images in order to utilise EmailJs.
+- In review, the wireframes stayed generally consistent with the finished design (especially in respect of the Index.html page) but I amended the proposed layout of the other two HTML pages, by containing all of the places to see and things to do information within one page (experiences.html), while creating a new page (enquiries.html) containing a Bootstrap form and images in order to utilise EmailJS.
 
 ## Features
 - The website is responsive on all device sizes (and has been tested through Chrome Dev Tools on various devices including iPhone 6, iPhone X, Galaxy S5, iPad and Desktop).
@@ -99,14 +99,14 @@ Enquiry Page Images:
 ### Frameworks and Libraries and Programs Used
 1.	[Bootstrap 4](https://getbootstrap.com/docs/4.6/getting-started/introduction/): Bootstrap was utilised to assist with the responsiveness and styling of the website, specifically in respect of the Navigation and Footer Sections and the rows/columns used for experiences.html and enquires.html.
 2.	[Google Fonts](https://fonts.google.com/): Google Fonts was utilised to import the 'Lato' font into the style.css file and this font is used on all pages throughout the website.
-3.	[Font Awesome](https://fontawesome.com/): Font Awesome was utilised in the Index.html and experiences.html pages, as well as in the Footer, for aesthetic and UX purposes. I matched the icons with the activity or place (e.g. Kyoto represented by a temple icon as it is the historic capital) that they most closely represented.
+3.	[Font Awesome](https://fontawesome.com/): Font Awesome was utilised in the index.html and experiences.html pages, as well as in the Footer, for aesthetic and UX purposes. I matched the icons with the activity or place (e.g. Kyoto represented by a temple icon as it is the historic capital) that they most closely represented.
 4.	[Git](https://git-scm.com/): Git was used for version control throughout the project by utilizing the Gitpod terminal to Commit to git and Push to the GitHub repository.
 5.	[GitHub](https://github.com/): GitHub was used to store the code for the project after being pushed from Gitpod.
 6.	[FreeLogoDesign](https://www.freelogodesign.org/): MyFreeLogo was used to create the Visit Japan logo.
-7.	Favicon: I used a Favicon image of the logo and added it to all three pages.
+7.	[Favicon](https://en.wikipedia.org/wiki/Favicon): I used a Favicon image of the logo and added it to all three pages.
 8.  [Google Maps API](https://developers.google.com/maps): The map included in the Experiences page is inputted with Google Maps through an API key.
 9.  [EmailJS](https://www.emailjs.com/): I utilised EmailJS to send an email from Visit Japan when the form in the Enquiries page is completed. In respect of this project, I set up an email account (jhrdevelopment1@gmail.com), which sends the email from Visit Japan to the user. 
-10.	[Free Image Optimiser](http://www.imageoptimizer.net/Pages/Home.aspx): I utilised photo optimiser to ensure that the high quality images that I used from the Unsplash website would load in a fast time.
+10.	[Free Image Optimiser](http://www.imageoptimizer.net/Pages/Home.aspx): I utilised a photo optimiser to ensure that the high quality images that I used from the Unsplash website would load in a fast time.
 11.	[Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQiAnKeCBhDPARIsAFDTLTJ5qmGTj2XQK_FoiFP6eKlzn-5oxqsh5N5hjjYKaGvx1AKPc1wb48EaAoSYEALw_wcB): Balsamiq was used to create the wireframes during the initial design phase.
 12.	[Coolors](https://coolors.co/): I prepared the screenshot (included in this Readme) of the colours I had selected for this project using the Coolors template.
 
