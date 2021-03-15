@@ -1,7 +1,7 @@
 /*jshint esversion: 6 */
 
 /*Start of Javascript Map API code */
-/* I utilised the basic code from a Stackoverflow post in order to create an API Map with markers, and then amended it to centre over Japan with the right zoom, focus on four cities in Japan and included additional text relating to facts about these places - see Readme */
+/* I utilised the basic code from a Stackoverflow post in order to create an API Map with markers, and then amended it to centre over Japan with the right zoom, focus on four cities in Japan and further included additional text relating to facts about these places - see Readme */
 let map;
 let infoObject = [];
 let centerCords = {
