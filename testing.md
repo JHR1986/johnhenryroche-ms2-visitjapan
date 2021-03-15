@@ -152,6 +152,8 @@ This is a complete account of the testing process for the site from start to fin
 On this basis, I created a modal for the form where a text popup would show when the "Request Information" button is clicked. I noted when testing that the "required" attribute (that I had inserted into each input for Name, Email & Query) would highlight when a field was missing required information, but that the modal popup text would still be seen when the button was clicked. 
 Therefore, I amended the wording to confirm to the user that their Name, Email & Query is required for them to receive an email; "Thank you for expressing your interest in Visit Japan. If you have correctly inputted your Name, Email and Query (all 3 fields are required), you will shortly receive an
 email from Visit Japan!". I reviewed several online posts to see if I could amend the code to only show the popup box when the form was fully validated, but was not able to find a suitable answer, so I chose to confirm to the user (in the popup text) that submitting their Name, Email and Query is required for receiving an email from Visit Japan.
+Additionally, I also added an oninvalid Event as a further warning that all 3 fields need to be completed for the EmailJS service to work correctly. 
+
 
 
 
