@@ -121,7 +121,7 @@ This is a complete account of the testing process for the site from start to fin
 2.	Bootstrap Form
     - Enter details into all form inputs, ensuring that form will not send if an input is blank.
     - Hit submit button and confirm that modal appears correctly for all device widths, confirming that the request has been issued.
-    - Receive email from Visit Japan detailing that request has been sent and a reply with brochure will be issued shortly.
+    - Receive email from Visit Japan (jhrdevelopment1@gmail.com - the email I set up for testing) detailing that request has been sent and a reply with brochure will be issued shortly.
     - Reduce and expand width of window to verify that the form responds as expected, and that it fits correctly on all device widths from mobile to tablet to desktop.
 
 3.	Images:
