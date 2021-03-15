@@ -104,9 +104,11 @@ Enquiry Page Images:
 5.	[GitHub](https://github.com/): GitHub was used to store the code for the project after being pushed from Gitpod.
 6.	[FreeLogoDesign](https://www.freelogodesign.org/): MyFreeLogo was used to create the Visit Japan logo.
 7.	Favicon: I used a Favicon image of the logo and added it to all three pages.
-8.	[Free Image Optimiser](http://www.imageoptimizer.net/Pages/Home.aspx): I utilised photo optimiser to ensure that the high quality images that I used from the Unsplash website would load in a fast time.
-9.	[Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQiAnKeCBhDPARIsAFDTLTJ5qmGTj2XQK_FoiFP6eKlzn-5oxqsh5N5hjjYKaGvx1AKPc1wb48EaAoSYEALw_wcB): Balsamiq was used to create the wireframes during the initial design phase.
-10.	[Coolors](https://coolors.co/): I prepared the screenshot (included in this Readme) of the colours I had selected for this project using the Coolors template.
+8.  [Google Maps API](https://developers.google.com/maps): The map included in the Experiences page is inputted with Google Maps through an API key.
+9.  [EmailJS](https://www.emailjs.com/): I utilised EmailJS to send an email from Visit Japan when the form in the Enquiries page is completed. In respect of this project, I set up an email account (jhrdevelopment1@gmail.com), which sends the email from Visit Japan to the user. 
+10.	[Free Image Optimiser](http://www.imageoptimizer.net/Pages/Home.aspx): I utilised photo optimiser to ensure that the high quality images that I used from the Unsplash website would load in a fast time.
+11.	[Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQiAnKeCBhDPARIsAFDTLTJ5qmGTj2XQK_FoiFP6eKlzn-5oxqsh5N5hjjYKaGvx1AKPc1wb48EaAoSYEALw_wcB): Balsamiq was used to create the wireframes during the initial design phase.
+12.	[Coolors](https://coolors.co/): I prepared the screenshot (included in this Readme) of the colours I had selected for this project using the Coolors template.
 
 ## Testing
 
