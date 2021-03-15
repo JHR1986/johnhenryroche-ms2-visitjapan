@@ -54,7 +54,7 @@ As a Returning Visitor, I want to be able to easily access the key information i
 - The footer to each of three pages lists the Japanese embassy’s address in Dublin, their opening hours and phone/email address so any subsequent queries can be addressed.
 
 #### Frequent Visitor Goals
-As a Frequent/Returning Visitor, I want to able to contact the Japanese embassy with further queries (e.g. visa issues) about visiting Japan.
+- As a Frequent/Returning Visitor, I want to be able to contact the Japanese embassy with further queries (e.g. visa issues or Covid restrictions etc) about visiting Japan.
 - As highlighted in the frequent visitor section, contact information for the Japanese embassy in Dublin is listed in the footer of each of the three pages.
 As a Frequent/Returning Visitor, I want to see if any additional information about Japan has been added to the Experiences page (e.g. are they focusing on other areas cities in Japan that the person may wish to visit).
 - With the site being updated on a regular basis, the experiences page will list different Japanese cities and activities to do, so that the user can find out more about Japan when they return to the site. 
