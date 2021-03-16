@@ -23,7 +23,7 @@
 ![testing-photos-new](https://user-images.githubusercontent.com/71781554/111032364-b4526880-8403-11eb-80df-10194d934e6b.png)
 - The JavaScript files were also tested in JSHint and no errors were recorded (as well as no errors being recorded in DevTools). There was a message presented in respect of the Maps JavaScript code as follows; “Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (closeOtherInfo, infoObject)”, but having queried this comment with Code Institute Tutor Support they advised that the code needed to be written in this form in order for it to work correctly and that there was no issue with having this message. 
 ![testing-js-new](https://user-images.githubusercontent.com/71781554/111032585-d6001f80-8404-11eb-9ffd-6769764c50ed.png)
-- Alt tags were added to all images for accessibility purposes. I checked to see if an alt tag should be added to the Google Map API, but it was noted in this [post](https://mlitzinger.com/blog/making-google-maps-controls-more-accessible/) that Google Maps does not include alt attributes (blank or otherwise). 
+- I ensured that alt tags were added to all images for accessibility purposes. I checked to see if an alt tag should be added to the Google Map API, but it was noted in this [post](https://mlitzinger.com/blog/making-google-maps-controls-more-accessible/) that Google Maps does not include alt attributes (blank or otherwise). 
 
 ### Client Stories Testing
 The most direct path through the website is as follows:
