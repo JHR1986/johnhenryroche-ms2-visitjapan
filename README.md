@@ -79,7 +79,7 @@ Photo of Site Represented on Various Media to highlight responsive design:
 
 ## Features
 - The website is responsive on all device sizes (and has been tested through Chrome Dev Tools on various devices including iPhone 6, iPhone X, Galaxy S5, iPad and Desktop).
-- The website has several interactive elements, including two Bootstrap buttons on the Home page which can be clicked to navigate to the Experiences and Enquiries Pages, as well as a Google Map utilising API and a Bootstrap form with a modal. 
+- The website has several interactive elements, including two Bootstrap buttons on the Home page which can be clicked to navigate to the Experiences and Enquiries Pages, as well as a Google Map utilising API and a Bootstrap form with a modal which utilises EmailJS. 
 - Each page in the website features a responsive Bootstrap navigation bar with the site logo featured to the left and the three page links to the right (with the active page highlighted), and these pages also each contain a 4 column Bootstrap footer with a copyright message, address, opening hours and contact information (email and phone). The Homepage features a large hero image, while there are various smaller images inputted in Enquiries and a large Google Map in the Experiences page. Each page has been designed to be intuitive and easy to follow, with text prepared in a concise and to the point structure, and flows in a logical manner from the Home Page to the Enquiries Page:
     - Home Page: Hero Image with Heading Text and Overview Text detailing the purpose of the website.
     - Experiences Page: Google Map with four markers containing synopsis information about these areas, and information about activities/things to do in these four cities (Tokyo, Osaka, Kyoto & Sapporo) detailed below.
@@ -102,7 +102,7 @@ Enquiry Page Images:
 3.	[Font Awesome](https://fontawesome.com/): Font Awesome was utilised in the index.html and experiences.html pages, as well as in the Footer, for aesthetic and UX purposes. I matched the icons with the activity or place (e.g. Kyoto represented by a temple icon as it is the historic capital) that they most closely represented.
 4.	[Git](https://git-scm.com/): Git was used for version control throughout the project by utilizing the Gitpod terminal to Commit to git and Push to the GitHub repository.
 5.	[GitHub](https://github.com/): GitHub was used to store the code for the project after being pushed from Gitpod.
-6.	[FreeLogoDesign](https://www.freelogodesign.org/): MyFreeLogo was used to create the Visit Japan logo.
+6.	[FreeLogoDesign](https://www.freelogodesign.org/): FreeLogoDesign was used to create the Visit Japan logo.
 7.	[Favicon](https://en.wikipedia.org/wiki/Favicon): I used a Favicon image of the logo and added it to all three pages.
 8.  [Google Maps API](https://developers.google.com/maps): The map included in the Experiences page is inputted with Google Maps through an API key.
 9.  [EmailJS](https://www.emailjs.com/): I utilised EmailJS to send an email from Visit Japan when the form in the Enquiries page is completed. In respect of this project, I set up an email account (jhrdevelopment1@gmail.com), which sends the email from Visit Japan to the user. 
