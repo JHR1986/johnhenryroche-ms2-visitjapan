@@ -48,7 +48,7 @@ As a First Time Visitor, I want to be able to access and fill out a form in orde
 
 #### Returning Visitor Goals
 As a Returning Visitor, I want to request a brochure and email the Visit Japan team with any queries that I have about visiting Japan:
-- The contact form also offers the visitor to include any queries that they may have about their proposed trip to Japan which will be answered by the Visit Japan team.
+- The contact form also offers the visitor the opportunity to include any queries that they may have about their proposed trip to Japan which will be answered by the Visit Japan team.
 
 As a Returning Visitor, I want to be able to easily access the key information in respect of contacting the Japanese Embassy in Dublin and their opening hours and location (all contained within the footer):
 - The footer to each of the three pages lists the Japanese embassy’s address in Dublin, their opening hours and phone/email address, so that any subsequent queries can be addressed.
@@ -121,7 +121,8 @@ This is a complete account of the testing process for the site from start to fin
 2.	Bootstrap Form
     - Enter details into all form inputs, ensuring that email will not be sent if an input is blank (see Known Bugs section below for summary).
     - Hit submit button (when all fields are completed) and confirm that modal appears correctly for all device widths, confirming that the request has been issued.
-    - Receive email from Visit Japan (jhrdevelopment1@gmail.com - the email I set up for testing) detailing that request has been sent and a reply with brochure will be issued shortly.
+    - Receive email from Visit Japan (jhrdevelopment1@gmail.com - the email I set up for testing) detailing that request has been sent and a reply with brochure will be issued shortly. 
+    (It should be noted for this project that only the initial email from Visit Japan is sent, and that the PDF brochure and follow up email discussed in this email are not issued). 
     - Reduce and expand width of window to verify that the form responds as expected, and that it fits correctly on all device widths from mobile to tablet to desktop.
 
 3.	Images:
@@ -149,7 +150,7 @@ This is a complete account of the testing process for the site from start to fin
 
 ### Known Bugs
 - No bugs were found during testing, however I wished to summarise the following overview of the Bootstrap Modal in the Enquiries page to highlight an issue I encountered and my solution for same: As per the Sending Emails Using EmailJS lesson in Code Institute, I included "Return False" at the end of the JavaScript code in emailjs.js in order that the form would not refresh when the submit button was clicked, as this would prevent the EmailJS email from being issued.
-On this basis, I created a modal for the form where a text popup would show when the "Request Information" button is clicked. I noted when testing that the "required" attribute (that I had inserted into each input for Name, Email & Query) would highlight when a field was missing required information, but that the modal popup text would still be seen when the button was clicked. 
+On this basis, I created a modal for the form where a text popup would show when the "Request Information" button is clicked. I noted when testing that the "required" attribute (that I had inserted into each input for Name, Email & Query) would confirm when a field was missing required information, but that the modal popup text would still be seen when the button was clicked. 
 Therefore, I amended the wording to confirm to the user that their Name, Email & Query is required for them to receive an email; "Thank you for expressing your interest in Visit Japan. If you have inputted your Name, Email and Query (all 3 fields are required), you will shortly receive an
 email from Visit Japan!". I reviewed several online posts to see if I could amend the code to only show the popup box when the form was fully validated, but was not able to find a suitable answer, so I chose to confirm to the user (in the popup text) that submitting their Name, Email and Query is required for receiving an email from Visit Japan.
 Additionally, I also added an oninvalid Event as a further warning that all 3 fields need to be completed for the EmailJS service to work correctly. 
